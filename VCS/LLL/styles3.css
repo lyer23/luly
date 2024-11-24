@@ -1,0 +1,54 @@
+body {
+    font-family: 'Dancing Script', cursive; /* Fuente elegante */
+    font-size: 1.2em;
+    background: linear-gradient(135deg, #fef9e7, #f5e6ca); /* Fondo suave */
+    color: #333;
+    margin: 0;
+    padding: 20px; /* Espaciado interno para evitar que el contenido toque los bordes */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Coloca el contenido al inicio vertical */
+    min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #d35400; /* Tono cálido */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    max-width: 800px;
+    line-height: 1.8;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border: 2px solid #d35400; /* Borde cálido */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #d35400;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #e67e22;
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(1);
+}

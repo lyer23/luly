@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    background-image: url('imagen/lulita.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+}
+
+
+h1 {
+    font-size: 2.6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ec0909;
+}
+
+
+p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #0a0202;
+}
+
+
+.image {
+    width: 20%;
+    border-radius: 20px;
+}
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 10px 20px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #ff61ea;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
